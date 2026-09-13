@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Modern rounded chevron right -->
+    <path
+        android:fillColor="#382A24"
+        android:pathData="M8.29,7.41L12.88,12L8.29,16.59C7.9,16.98 7.9,17.62 8.29,18.01C8.68,18.4 9.32,18.4 9.71,18.01L15.29,12.42C15.68,12.03 15.68,11.39 15.29,11L9.71,5.41C9.32,5.02 8.68,5.02 8.29,5.41C7.9,5.8 7.9,6.43 8.29,7.41Z"/>
+</vector>

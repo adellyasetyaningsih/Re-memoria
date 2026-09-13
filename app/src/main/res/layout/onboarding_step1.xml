@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5EEDC">
+
+    <!-- BACK BUTTON -->
+    <ImageView
+        android:id="@+id/btnBackOnboard1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_chevron_left"
+        android:contentDescription="Back"
+        app:tint="#6B4A32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/tvCallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How should we call you?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#6B4A32"
+        android:fontFamily="serif"
+        app:layout_constraintTop_toBottomOf="@id/btnBackOnboard1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- INPUT BOX -->
+    <EditText
+        android:id="@+id/etCallName"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:hint="Your name or nickname"
+        android:padding="14dp"
+        android:textColor="#2B2B2B"
+        android:background="@drawable/rounded_input"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@id/tvCallTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- NEXT BUTTON -->
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textColor="#2B2B2B"
+        android:backgroundTint="#D9B36C"
+        app:layout_constraintTop_toBottomOf="@id/etCallName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="28dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

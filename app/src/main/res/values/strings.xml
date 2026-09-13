@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Re-Memoria</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="prev_month">Previous Month</string>
+    <string name="next_month">Next Month</string>
+    <string name="add_tape">Add New Tape</string>
+
+</resources>

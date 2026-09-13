@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Modern equalizer / audio waveform bars -->
+    <path
+        android:fillColor="#382A24"
+        android:pathData="M4,10C4.55,10 5,10.45 5,11V13C5,13.55 4.55,14 4,14C3.45,14 3,13.55 3,13V11C3,10.45 3.45,10 4,10ZM8,7C8.55,7 9,7.45 9,8V16C9,16.55 8.55,17 8,17C7.45,17 7,16.55 7,16V8C7,7.45 7.45,7 8,7ZM12,4C12.55,4 13,4.45 13,5V19C13,19.55 12.55,20 12,20C11.45,20 11,19.55 11,19V5C11,4.45 11.45,4 12,4ZM16,7C16.55,7 17,7.45 17,8V16C17,16.55 16.55,17 16,17C15.45,17 15,16.55 15,16V8C15,7.45 15.45,7 16,7ZM20,10C20.55,10 21,10.45 21,11V13C21,13.55 20.55,14 20,14C19.45,14 19,13.55 19,13V11C19,10.45 19.45,10 20,10Z"/>
+</vector>

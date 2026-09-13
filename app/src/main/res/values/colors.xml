@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds & Surfaces -->
+    <color name="vintage_background">#F7EFE2</color>
+    <color name="card_surface">#FFFDF9</color>
+    <color name="card_surface_elevated">#F8F0E3</color>
+    <color name="card_stroke">#E8DAC8</color>
+    <color name="player_bg">#EDE3D4</color>
+    <color name="paper_cream">#F5EEDB</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#2C211B</color>
+    <color name="text_secondary">#7D6D61</color>
+    <color name="text_tertiary">#A89B8F</color>
+
+    <!-- Brand / Accent Colors -->
+    <color name="dark_graphite">#251E1A</color>
+    <color name="warm_yellow">#E5C56E</color>
+    <color name="retro_metal_grey">#B8B4AE</color>
+    <color name="accent_gold">#CFA356</color>
+    <color name="fab_wax_red">#B33B38</color>
+    <color name="record_red">#E03E3E</color>
+    <color name="record_red_light">#FDECEC</color>
+
+    <!-- Cassette Colors -->
+    <color name="deep_brown">#382A24</color>
+    <color name="wood_brown">#6B4A32</color>
+    <color name="brick_red">#9E473D</color>
+    <color name="muted_olive">#7B8C64</color>
+    <color name="tape_gold">#CCA86E</color>
+    <color name="tape_teal">#4E7D7A</color>
+    <color name="tape_olive">#6E7D52</color>
+    <color name="tape_red">#B5533F</color>
+    <color name="tape_default">#D9CAB3</color>
+    <color name="tape_dark_body">#2B231F</color>
+
+    <!-- AI Card & Badges -->
+    <color name="ai_accent">#7C4DFF</color>
+    <color name="ai_badge_bg">#F2EDFE</color>
+    <color name="ai_badge_text">#6200EA</color>
+    <color name="ai_card_bg">#FCF9F3</color>
+    <color name="ai_card_stroke">#E8DBCE</color>
+</resources>

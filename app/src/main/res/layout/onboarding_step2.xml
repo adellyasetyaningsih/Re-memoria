@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5EEDC">
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/tvQuestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are your journal goals?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#6B4A32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- GOAL CHIPS -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/layoutGoals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:flexWrap="wrap"
+        app:flexDirection="row"
+        app:layout_constraintTop_toBottomOf="@id/tvQuestion2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <!-- NEXT BUTTON -->
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2B2B2B"
+        android:backgroundTint="#D9B36C"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutGoals"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
